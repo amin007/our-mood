@@ -25,6 +25,7 @@ tidak pilih langsung ada nilai default dalam php if-else atau switch
 
 tiba-tiba pilih awek mata biru laut itu tak jumpa konsep dalam php 7
 
-Bersambung...
+___
+> Bersambung...
 
 ###### mood cari ilham buat framework baru daa
