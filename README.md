@@ -1,5 +1,5 @@
 # Bismillah. Our-Mood
-##ini adalah percubaan framework berasaskan emosi aka perasaan.
+## ini adalah percubaan framework berasaskan emosi aka perasaan.
 
 dalam php, jika kita petik satu nama class, ada satu fungsi dalaman php akan cari nama class tersebut dan kita boleh set automatik include / require
 
@@ -27,4 +27,4 @@ tiba-tiba pilih awek mata biru laut itu tak jumpa konsep dalam php 7
 
 Bersambung...
 
-###mood cari ilham buat framework baru daa
+###### mood cari ilham buat framework baru daa
