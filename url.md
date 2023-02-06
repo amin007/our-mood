@@ -1,7 +1,6 @@
 # cara baca pautan
 
 ## apa yang kita faham tentang url
-___
 kebiasaanya url akan ditulis seperti ini
 
 http:80//localhost/index.php?query=param#cangkuk
