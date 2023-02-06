@@ -15,6 +15,6 @@ http:80//localhost/index.php?/class/method/param/param
 
 guna .htaccess akan jadi seperti ini
 
-http:80//localhost/class/method/param/param
+http://localhost/class/method/param/param
 
 ini lebih mudah untuk enjin carian index website kita dan beri user senang faham macam mana website kita berfungsi
