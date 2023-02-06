@@ -76,4 +76,4 @@ ___
 * Lain-lain
   * [markdown-cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
   * [how-to-match-data-in-excel](https://www.wallstreetmojo.com/how-to-match-data-in-excel)
-  * [mvc-structure-in-php] (https://www.techfry.com/php-tutorial/mvc-structure-in-php)
+  * [mvc-structure-in-php](https://www.techfry.com/php-tutorial/mvc-structure-in-php)
