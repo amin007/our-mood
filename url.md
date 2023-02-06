@@ -23,11 +23,10 @@ ini lebih mudah untuk enjin carian index website kita dan beri user senang faham
 
 dalam pembolehubah global $_SERVER ada beberapa benda yang berkaitan dengan url
 
-* $_SERVER['PATH_INFO'] => untuk apache
-* $_SERVER['PATH_TRANSLATED']
-* $_SERVER['REQUEST_URI'] 
-* $_SERVER['PHP_SELF']
-* $_SERVER['QUERY_STRING'] 
+* $_SERVER['PHP_SELF'] => index.php <= contoh nilai 
+* $_SERVER['SCRIPT_NAME'] = index.php <= contoh nilai 
+* $_SERVER['REQUEST_URI'] = index?/class/method/param/param  <= contoh nilai 
+* $_SERVER['QUERY_STRING'] = /class/method/param/param  <= contoh nilai 
 * $_SERVER['REQUEST_SCHEME'] => http atau https
 * $_SERVER['SERVER_PORT'] => 80 atau 443
 
@@ -35,3 +34,5 @@ kebiasaanya kita akan guna 3 pembolehubah iaitu
 * REQUEST_URI
 * PHP_SELF
 * QUERY_STRING
+
+kita jarang guna SCRIPT_NAME sebab panjang sangat berbanding dengan PHP_SELF
