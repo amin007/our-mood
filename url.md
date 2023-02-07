@@ -1,6 +1,8 @@
 # cara baca pautan
 
 ## apa yang kita faham tentang url
+localhost merujuk kepada server dalam pc/laptop sendiri
+
 kebiasaanya url akan ditulis seperti ini => localhost/index.php?query=param#cangkuk
 
 jika kita guna .htaccess, url akan jadi seperti ini => localhost/query=param#cangkuk
@@ -42,6 +44,8 @@ $svrReqUri = /class/method/param/param
 */
 ```
 
-kita cuba juga kononya hack dengan guna url seperti => ``` localhost/?"><script>alert(111);</script> ``
+kita cuba juga kononya hack dengan guna url seperti => localhost/?"><script>alert(111);</script>
 
-dalam php, akan jadi seperti ini => ```php $svrReqUri = %3Cscript%3Ealert(111);%3C/script%3E ```
+dalam php, akan jadi seperti ini => ```php
+$svrReqUri = %3Cscript%3Ealert(111);%3C/script%3E
+```
