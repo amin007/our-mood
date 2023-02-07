@@ -33,6 +33,7 @@ kita jarang guna SCRIPT_NAME sebab panjang sangat berbanding dengan PHP_SELF
 
 ## jika guna parsel_url atau REQUEST_URI
 ```php
+<?php
 $svrReqSch = $_SERVER['REQUEST_SCHEME'];
 $svrName = $_SERVER['SERVER_NAME'];
 $svrReqUri = $_SERVER['REQUEST_URI'];
@@ -47,6 +48,7 @@ kita cuba juga kononnya hack dengan guna url seperti => localhost/?<script>alert
 
 dalam REQUEST_URI tanpa filter, akan jadi seperti ini => 
 ```php
+<?php
 echo $svrReqUri = $_SERVER['REQUEST_URI'];
 /* contoh output
 $svrReqUri = %3Cscript%3Ealert(111);%3C/script%3E
