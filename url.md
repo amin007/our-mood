@@ -47,6 +47,9 @@ kita cuba juga kononnya hack dengan guna url seperti => localhost/?<script>alert
 
 dalam REQUEST_URI tanpa filter, akan jadi seperti ini => 
 ```php
+echo $svrReqUri = $_SERVER['REQUEST_URI'];
+/* contoh output
 $svrReqUri = %3Cscript%3Ealert(111);%3C/script%3E
+*/
 ```
-
+mungkin agak selamat guna tanpa kita filter atau guna htmlspecialchars()
