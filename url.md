@@ -3,9 +3,9 @@
 ## apa yang kita faham tentang url
 localhost merujuk kepada server dalam pc/laptop sendiri
 
-kebiasaanya url akan ditulis seperti ini => localhost/index.php?query=param#cangkuk
+kebiasaanya url akan ditulis seperti ini => localhost/index.php?query=param
 
-jika kita guna .htaccess, url akan jadi seperti ini => localhost/query=param#cangkuk
+jika kita guna .htaccess, url akan jadi seperti ini => localhost/query=param
 
 kalau url kita ubah seperti ini => localhost/index.php?/class/method/param/param
 
