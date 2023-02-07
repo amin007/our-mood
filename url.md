@@ -53,3 +53,5 @@ $svrReqUri = %3Cscript%3Ealert(111);%3C/script%3E
 */
 ```
 mungkin agak selamat guna tanpa kita filter atau guna htmlspecialchars()
+
+dalam website rasmi php, ada tulis catatan => 8.1.0	FILTER_SANITIZE_STRING and FILTER_SANITIZE_STRIPPED have been deprecated
