@@ -28,3 +28,20 @@ kebiasaanya kita akan guna 3 pembolehubah iaitu
 * QUERY_STRING
 
 kita jarang guna SCRIPT_NAME sebab panjang sangat berbanding dengan PHP_SELF
+
+## jika guna parsel_url
+```php
+$svrReqSch = $_SERVER['REQUEST_SCHEME'];
+$svrName = $_SERVER['SERVER_NAME'];
+$svrReqUri = $_SERVER['REQUEST_URI'];
+$p = $svrReqSch . '://' .  $svrName . $svrReqUri;
+$paparURL = parse_url($p,-1);
+echo '<pre>$svrReqUri = '; print_r($paparURL['query']); echo '</pre>';
+/* contoh output 
+$svrReqUri = /class/method/param/param
+*/
+```
+
+kita cuba juga kononya hack dengan guna url seperti => ``` http://localhost/?"><script>alert(111);</script> ``
+
+dalam php, akan jadi seperti ini => ```php $svrReqUri = %3Cscript%3Ealert(111);%3C/script%3E ```
