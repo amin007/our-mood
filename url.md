@@ -31,7 +31,7 @@ kebiasaanya kita akan guna 3 pembolehubah iaitu
 
 kita jarang guna SCRIPT_NAME sebab panjang sangat berbanding dengan PHP_SELF
 
-## jika guna parsel_url
+## jika guna parsel_url atau REQUEST_URI
 ```php
 $svrReqSch = $_SERVER['REQUEST_SCHEME'];
 $svrName = $_SERVER['SERVER_NAME'];
