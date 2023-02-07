@@ -44,7 +44,7 @@ $svrReqUri = /class/method/param/param
 */
 ```
 
-kita cuba juga kononya hack dengan guna url seperti => localhost/?"><script>alert(111);</script>
+kita cuba juga kononnya hack dengan guna url seperti => localhost/?"><script>alert(111);</script>
 
 dalam php, akan jadi seperti ini => 
 ```php
