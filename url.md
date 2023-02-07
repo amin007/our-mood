@@ -1,13 +1,13 @@
 # cara baca pautan
 
 ## apa yang kita faham tentang url
-kebiasaanya url akan ditulis seperti ini => http:80//localhost/index.php?query=param#cangkuk
+kebiasaanya url akan ditulis seperti ini => localhost/index.php?query=param#cangkuk
 
-jika kita guna .htaccess, url akan jadi seperti ini => http://localhost/query=param#cangkuk
+jika kita guna .htaccess, url akan jadi seperti ini => localhost/query=param#cangkuk
 
-kalau url kita ubah seperti ini => http:80//localhost/index.php?/class/method/param/param
+kalau url kita ubah seperti ini => localhost/index.php?/class/method/param/param
 
-guna .htaccess akan jadi seperti ini => http://localhost/class/method/param/param
+guna .htaccess akan jadi seperti ini => localhost/class/method/param/param
 
 ini lebih mudah untuk enjin carian index website kita dan beri user senang faham macam mana website kita berfungsi
 
@@ -42,6 +42,6 @@ $svrReqUri = /class/method/param/param
 */
 ```
 
-kita cuba juga kononya hack dengan guna url seperti => ``` http://localhost/?"><script>alert(111);</script> ``
+kita cuba juga kononya hack dengan guna url seperti => ``` localhost/?"><script>alert(111);</script> ``
 
 dalam php, akan jadi seperti ini => ```php $svrReqUri = %3Cscript%3Ealert(111);%3C/script%3E ```
