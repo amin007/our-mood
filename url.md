@@ -43,10 +43,9 @@ echo '<pre>$svrReqUri = '; print_r($paparURL['query']); echo '</pre>';
 $svrReqUri = /class/method/param/param
 */
 ```
-
 kita cuba juga kononnya hack dengan guna url seperti => localhost/?"><script>alert(111);</script>
-
 dalam REQUEST_URI tanpa filter, akan jadi seperti ini => 
 ```php
 $svrReqUri = %3Cscript%3Ealert(111);%3C/script%3E
 ```
+
